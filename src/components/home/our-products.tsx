@@ -2,16 +2,26 @@ import { Products, ProductType } from "@/utils/contants";
 
 const ProductCard = ({ product }: { product: ProductType }) => {
     return (
-        <div className="bg-white p-6 rounded-lg w-fit border border-[#0070C0] basis-1/3 group hover:cursor-pointer">
-            <p className="font-medium text-white bg-[#0070C0] w-fit px-2 py-1 rounded-lg">{product.name}</p>
+        <div className="bg-white p-4 md:p-6 rounded-lg w-full md:w-fit border border-[#0070C0] group hover:cursor-pointer basis-1/3">
+            <p className="font-medium text-white bg-[#0070C0] w-fit px-2 py-1 rounded-lg text-sm md:text-base">
+                {product.name}
+            </p>
             <img
                 src={product.image}
                 alt={product.name}
-                className="rounded-lg mt-6 h-[250px] w-full object-cover overflow-hidden"
+                className="rounded-lg mt-4 md:mt-6 h-[200px] md:h-[250px] w-full object-cover overflow-hidden"
             />
 
-            <div className="flex items-center gap-2 mt-8 hover:cursor-pointer  w-fit">
-                <svg width="24" height="24" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className="flex items-center gap-2 mt-6 md:mt-8 hover:cursor-pointer w-fit">
+                <svg
+                    width="20"
+                    height="20"
+                    // md:width="24"
+                    // md:height="24"
+                    viewBox="0 0 41 41"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
                     <circle
                         cx="20.5"
                         cy="20.5"
@@ -25,7 +35,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
                     />
                 </svg>
 
-                <p className="text-sm font-medium text-[#FF0000] group-hover:text-black transition-colors duration-300">
+                <p className="text-xs md:text-sm font-medium text-[#FF0000] group-hover:text-black transition-colors duration-300">
                     Learn more
                 </p>
             </div>
@@ -35,11 +45,11 @@ const ProductCard = ({ product }: { product: ProductType }) => {
 
 const OurProducts = () => {
     return (
-        <div className="py-10 bg-[#F4F8FF]">
-            <div className="container">
-                <h2 className="text-center text-3xl font-bold text-[#0070C0]">Our Products</h2>
+        <div className="py-8 md:py-10 bg-[#F4F8FF]">
+            <div className="container px-4 md:px-8">
+                <h2 className="text-center text-2xl md:text-3xl font-bold text-[#0070C0]">Our Products</h2>
 
-                <div className="flex items-center justify-center gap-4 mt-8">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-4 mt-6 md:mt-8">
                     {Products.map((product) => (
                         <ProductCard key={product.id} product={product} />
                     ))}
