@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: #ffffff;
-    --foreground: #000000;
-  }
+    :root {
+        --background: #ffffff;
+        --foreground: #000000;
+    }
 
-  body {
-    @apply bg-white text-black;
-  }
+    body {
+        @apply bg-white text-black;
+    }
 }
