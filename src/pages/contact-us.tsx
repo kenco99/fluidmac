@@ -7,6 +7,7 @@ import { IoIosCall, IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const ContactUs = () => {
     return (
@@ -15,46 +16,72 @@ const ContactUs = () => {
             <PageHeader />
             
             {/* Hero Section */}
-            <div className="container py-8 md:py-12">
-                <div className="space-y-4">
-                    <h1 className="text-3xl md:text-4xl font-bold text-[#0070C0]">Get In Touch With Us.</h1>
-                    <p className="text-lg text-gray-600">We're Here To Assist You.</p>
-                    <div className="flex gap-3">
+            <div className="container px-4 md:px-8 py-6 md:py-12">
+                <div className="space-y-3 md:space-y-4">
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0070C0]">Get In Touch With Us.</h1>
+                    <p className="text-base md:text-lg text-gray-600">We're Here To Assist You.</p>
+                    <div className="flex gap-2 md:gap-3">
                         <Link href="https://facebook.com" target="_blank" className="text-gray-600 hover:text-[#FF0000] transition-colors">
-                            <FaFacebookF size={20} />
+                            <FaFacebookF className="w-4 h-4 md:w-5 md:h-5" />
                         </Link>
                         <Link href="https://linkedin.com" target="_blank" className="text-gray-600 hover:text-[#FF0000] transition-colors">
-                            <FaLinkedinIn size={20} />
-                        </Link>
+                            <FaLinkedinIn className="w-4 h-4 md:w-5 md:h-5" />
+                    </div>
+                    <div className="flex items-center gap-3 md:gap-4 mt-4">
+                        <Button variant="outline" className="bg-[#FFEDED] text-xs md:text-sm px-3 md:px-4">
+                            About us
+                        </Button>
+                        <Button className="text-white text-xs md:text-sm px-3 md:px-4">Talk to sales</Button>
                     </div>
                 </div>
             </div>
 
             {/* Contact Information Section */}
-            <div className="bg-[#0070C0] py-8 md:py-12">
-                <div className="container">
-                    <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-white">Our Contact Information</h2>
-                    <p className="mb-4 text-white/80">Reach us with the following:</p>
+            <div className="bg-[#0070C0] py-6 md:py-12">
+                <div className="container px-4 md:px-8">
+                    <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 md:mb-8 text-white">Our Contact Information</h2>
+                    <p className="mb-3 md:mb-4 text-sm md:text-base text-white/80">Reach us with the following:</p>
                     
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                        <div className="space-y-4 md:space-y-6">
-                            <div className="flex items-center gap-2 md:gap-3">
-                                <IoIosCall className="text-white w-5 h-5 md:w-6 md:h-6" size={20} />
-                                <p className="text-white text-sm md:text-base">+91-9822384075/8329008308</p>
+                    {/* Mobile View */}
+                    <div className="flex flex-col space-y-4 md:hidden">
+                        <div className="flex items-center gap-2">
+                            <IoIosCall className="text-white w-4 h-4" />
+                            <p className="text-white text-xs">+91-9822384075/8329008308</p>
+                        </div>
+                        <div className="flex items-center gap-2">
+                            <IoMdMail className="text-white w-4 h-4" />
+                            <p className="text-white text-xs">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
+                        </div>
+                        <div className="flex items-start gap-2">
+                            <FaLocationDot className="text-white mt-1 w-4 h-4" />
+                            <p className="text-white text-xs">Plot No.8, Kakoda Industrial Estate, Curchorem, Goa-403706, India</p>
+                        </div>
+                        <div className="flex items-start gap-2">
+                            <FaLocationDot className="text-white mt-1 w-4 h-4" />
+                            <p className="text-white text-xs">Shed No. 2, Sy No. 45, Attibele, Muthanandra Village, Bangalore, Karnataka - 562107, India</p>
+                        </div>
+                    </div>
+
+                    {/* Desktop View */}
+                    <div className="hidden md:grid grid-cols-2 gap-8">
+                        <div className="space-y-6">
+                            <div className="flex items-center gap-3">
+                                <IoIosCall className="text-white w-5 h-5" />
+                                <p className="text-white text-sm">+91-9822384075/8329008308</p>
                             </div>
-                            <div className="flex items-center gap-2 md:gap-3">
-                                <IoMdMail className="text-white w-5 h-5 md:w-6 md:h-6" size={20} />
-                                <p className="text-white text-sm md:text-base">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
+                            <div className="flex items-center gap-3">
+                                <IoMdMail className="text-white w-5 h-5" />
+                                <p className="text-white text-sm">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
                             </div>
-                            <div className="flex items-start gap-2 md:gap-3">
-                                <FaLocationDot className="text-white mt-1 w-5 h-5 md:w-6 md:h-6" size={20} />
-                                <p className="text-white text-sm md:text-base">Plot No.8, Kakoda Industrial Estate, Curchorem, Goa-403706, India</p>
+                            <div className="flex items-start gap-3">
+                                <FaLocationDot className="text-white mt-1 w-5 h-5" />
+                                <p className="text-white text-sm">Plot No.8, Kakoda Industrial Estate, Curchorem, Goa-403706, India</p>
                             </div>
                         </div>
-                        <div className="space-y-4 md:space-y-6">
-                            <div className="flex items-start gap-2 md:gap-3">
-                                <FaLocationDot className="text-white mt-1 w-5 h-5 md:w-6 md:h-6" size={20} />
-                                <p className="text-white text-sm md:text-base">Shed No. 2, Sy No. 45, Attibele, Muthanandra Village, Bangalore, Karnataka - 562107, India</p>
+                        <div className="space-y-6">
+                            <div className="flex items-start gap-3">
+                                <FaLocationDot className="text-white mt-1 w-5 h-5" />
+                                <p className="text-white text-sm">Shed No. 2, Sy No. 45, Attibele, Muthanandra Village, Bangalore, Karnataka - 562107, India</p>
                             </div>
                         </div>
                     </div>
@@ -62,75 +89,79 @@ const ContactUs = () => {
             </div>
 
             {/* Office Locations */}
-            <div className="container py-12">
-                <div className="space-y-12">
+            <div className="container px-4 md:px-8 py-8 md:py-12">
+                <div className="space-y-8 md:space-y-12">
                     {/* Head Office */}
-                    <div>
-                        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 md:mb-6 text-gray-900">Head Office (Goa)</h2>
-                        <div className="space-y-4 md:space-y-6">
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">ADDRESS</h3>
-                                <p className="text-gray-700 text-sm md:text-base">Fluidmac Fluid Industries<br />Plot No.8, Kakoda Industrial Estate, Curchorem, Goa-403706, India</p>
+                    <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+                        <div className="w-full md:w-1/2">
+                            <h2 className="text-2xl md:text-3xl font-semibold mb-4 md:mb-6 text-gray-900">Head Office (Goa)</h2>
+                            <div className="space-y-3 md:space-y-4">
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">ADDRESS</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">Fluidmac Fluid Industries<br />Plot No.8, Kakoda Industrial Estate, Curchorem, Goa-403706, India</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">TELEPHONE</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">+91-9822384075/8329008308</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">EMAIL</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
+                                </div>
                             </div>
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">TELEPHONE</h3>
-                                <p className="text-gray-700 text-sm md:text-base">+91-9822384075/8329008308</p>
-                            </div>
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">EMAIL</h3>
-                                <p className="text-gray-700 text-sm md:text-base">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
-                            </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                                <Image 
-                                    src="/images/contact-us/goa-office-1.jpg" 
-                                    alt="Goa Office" 
-                                    width={400} 
-                                    height={300}
-                                    className="rounded-lg w-full"
-                                />
-                                <Image 
-                                    src="/images/contact-us/goa-office-2.jpg" 
-                                    alt="Goa Office" 
-                                    width={400} 
-                                    height={300}
-                                    className="rounded-lg w-full"
-                                />
-                            </div>
+                        </div>
+                        <div className="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                            <Image 
+                                src="/images/contact-us/goa-office-1.jpg" 
+                                alt="Goa Office" 
+                                width={400} 
+                                height={300}
+                                className="rounded-lg w-full"
+                            />
+                            <Image 
+                                src="/images/contact-us/goa-office-2.jpg" 
+                                alt="Goa Office" 
+                                width={400} 
+                                height={300}
+                                className="rounded-lg w-full"
+                            />
                         </div>
                     </div>
 
                     {/* Other Offices */}
-                    <div>
-                        <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-4 md:mb-6 text-gray-900">Other Offices (Bangalore)</h2>
-                        <div className="space-y-4 md:space-y-6">
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">ADDRESS</h3>
-                                <p className="text-gray-700 text-sm md:text-base">Shed No. 2, Sy No. 45, Attibele, Muthanandra Village,<br />Bangalore, Karnataka - 562107, India</p>
+                    <div className="flex flex-col md:flex-row gap-6 md:gap-8">
+                        <div className="w-full md:w-1/2">
+                            <h2 className="text-2xl md:text-3xl font-semibold mb-4 md:mb-6 text-gray-900">Other Offices (Bangalore)</h2>
+                            <div className="space-y-3 md:space-y-4">
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">ADDRESS</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">Shed No. 2, Sy No. 45, Attibele, Muthanandra Village,<br />Bangalore, Karnataka - 562107, India</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">TELEPHONE</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">+91-9822384075/8329008308</p>
+                                </div>
+                                <div className="space-y-1">
+                                    <h3 className="font-medium text-[#FF0000] text-xs uppercase tracking-wide">EMAIL</h3>
+                                    <p className="text-xs md:text-sm text-gray-700">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
+                                </div>
                             </div>
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">TELEPHONE</h3>
-                                <p className="text-gray-700 text-sm md:text-base">+91-9822384075/8329008308</p>
-                            </div>
-                            <div className="space-y-1 md:space-y-2">
-                                <h3 className="font-medium text-[#FF0000] text-xs md:text-sm">EMAIL</h3>
-                                <p className="text-gray-700 text-sm md:text-base">sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
-                            </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-                                <Image 
-                                    src="/images/contact-us/bangalore-office-1.jpg" 
-                                    alt="Bangalore Office" 
-                                    width={400} 
-                                    height={300}
-                                    className="rounded-lg w-full"
-                                />
-                                <Image 
-                                    src="/images/contact-us/bangalore-office-2.jpg" 
-                                    alt="Bangalore Office" 
-                                    width={400} 
-                                    height={300}
-                                    className="rounded-lg w-full"
-                                />
-                            </div>
+                        </div>
+                        <div className="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                            <Image 
+                                src="/images/contact-us/bangalore-office-1.jpg" 
+                                alt="Bangalore Office" 
+                                width={400} 
+                                height={300}
+                                className="rounded-lg w-full"
+                            />
+                            <Image 
+                                src="/images/contact-us/bangalore-office-2.jpg" 
+                                alt="Bangalore Office" 
+                                width={400} 
+                                height={300}
+                                className="rounded-lg w-full"
+                            />
                         </div>
                     </div>
                 </div>
