@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+This project supports multiple package managers (npm, yarn, pnpm, and bun) for development.
+
 First, run the development server:
 
 ```bash
