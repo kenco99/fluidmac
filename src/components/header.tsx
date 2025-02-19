@@ -45,7 +45,9 @@ export const Header = () => {
 					</Popover>
 					<Link href="/facilities">Facilities</Link>
 				</nav>
-				<Button className="hidden md:flex">Contact us</Button>
+				<Link href="/contact">
+					<Button className="hidden md:flex">Contact us</Button>
+				</Link>
 				<Button
 					size="icon"
 					variant="ghost"
@@ -58,7 +60,7 @@ export const Header = () => {
 			</header>
 			<div
 				className={cn(
-					"md:hidden container absolute w-full pb-3 text-lg bg-white shadow-lg transform transition-all duration-200 ease-in",
+					"md:hidden container absolute w-full pb-3 text-lg bg-white shadow-lg transform transition-all duration-200 ease-in z-50",
 					{
 						"translate-y-0 opacity-100": isOpen,
 						"-translate-y-10 opacity-0": !isOpen,
@@ -83,12 +85,12 @@ export const Header = () => {
 						Hydraulic Fittings
 					</Link>
 				</div>
-				<Link href="/about" className="block font-semibold w-full py-3 hover:opacity-90">
+				<Link href="/facilities" className="block font-semibold w-full py-3 hover:opacity-90">
 					Facilities
 				</Link>
-				<Button size="sm" className="ml-auto flex">
-					Talk to sales
-				</Button>
+				<Link href="/contact">
+					<Button size="sm" className="ml-auto flex">Talk to sales</Button>
+				</Link>
 			</div>
 		</>
 	);

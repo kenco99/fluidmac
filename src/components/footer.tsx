@@ -16,17 +16,17 @@ export const Footer = () => (
 						<h6 className="text-red-500 font-bold">QUICK LINKS</h6>
 						<Link href="/">Home</Link>
 						<Link href="/about">About</Link>
-						<Link href="/hose-assemblies">Hose Assemblies</Link>
-						<Link href="/tube-assemblies">Tube Assemblies</Link>
-						<Link href="/hydraulic-fittings">Hydraulic Fittings</Link>
+						<Link href="/products/hose-assemblies">Hose Assemblies</Link>
+						<Link href="/products/tube-assemblies">Tube Assemblies</Link>
+						<Link href="/products/hydraulic-fittings">Hydraulic Fittings</Link>
 					</div>
 					<div className="flex flex-col gap-3 md:gap-4 text-sm md:text-lg text-white">
 						<h6 className="text-red-500 font-bold">FOLLOW US</h6>
-						<a href="" target="_blank" className="flex gap-3 items-center">
+						<a href="https://www.facebook.com/share/15srAozVtq" target="_blank" className="flex gap-3 items-center">
 							<BiLogoFacebook size={30} />
 							Facebook
 						</a>
-						<a href="" target="_blank" className="flex gap-3 items-center">
+						<a href="https://www.linkedin.com/company/fluidmac" target="_blank" className="flex gap-3 items-center">
 							<BiLogoLinkedinSquare size={30} />
 							LinkedIn
 						</a>
@@ -40,7 +40,9 @@ export const Footer = () => (
 				</div>
 				<div>
 					<h6 className="mb-4 text-2xl md:text-3xl font-bold text-white">Talk to sales</h6>
-					<Button>Contact us</Button>
+					<Link href="/contact">
+						<Button>Contact us</Button>
+					</Link>
 				</div>
 			</div>
 			<p className="text-gray-300 text-xs lg:text-sm text-center lg:text-right pb-4">

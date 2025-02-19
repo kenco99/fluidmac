@@ -1,4 +1,5 @@
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export const ContactCard = () => (
 	<div className="bg-blue-500/5 relative px-3 py-6 lg:px-16 lg:py-10 rounded-lg overflow-hidden">
@@ -10,9 +11,11 @@ export const ContactCard = () => (
 		<p className="text-sm lg:text-2xl leading-5 mb-3">
 			Let’s make things happen, contact us today to learn more about our services can help your business grow.
 		</p>
-		<Button size="lg" className="text-xl">
-			Contact us
-		</Button>
+		<Link href="/contact">
+			<Button size="lg" className="text-xl">
+				Contact us
+			</Button>
+		</Link>
 		<svg className="absolute h-full top-0 right-6" viewBox="0 0 143 152" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<g opacity="0.35">
 				<path

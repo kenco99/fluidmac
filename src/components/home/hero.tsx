@@ -1,5 +1,5 @@
-import { Button } from "../ui/button";
-
+import { Button } from "../ui/button";  
+import Link from "next/link";
 const Hero = () => {
     return (
         <div
@@ -28,11 +28,16 @@ const Hero = () => {
                 </div>
 
                 <div className="flex items-center justify-center gap-3 md:gap-4 mt-4 md:mt-6">
+                    <Link href="/about">
                     <Button variant={"outline"} className="bg-[#FFEDED] text-xs md:text-sm px-3 md:px-4">
                         About us
                     </Button>
+                    </Link>
+                   
 
+                    <Link href="/contact">
                     <Button className="text-white text-xs md:text-sm px-3 md:px-4">Talk to sales</Button>
+                    </Link>
                 </div>
             </div>
         </div>

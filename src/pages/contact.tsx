@@ -19,10 +19,10 @@ export default function ContactUsPage() {
 								</h1>
 							</div>
 							<div className="flex flex-col gap-4">
-								<a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50">
+								<a href="https://www.facebook.com/share/15srAozVtq/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50">
 									<FaFacebookF className="text-gray-600" />
 								</a>
-								<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50">
+								<a href="https://www.linkedin.com/company/fluidmac" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-50">
 									<FaLinkedinIn className="text-gray-600" />
 								</a>
 							</div>
