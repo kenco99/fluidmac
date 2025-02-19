@@ -35,8 +35,8 @@ export const Header = () => {
 							<Link href="/products/hose-assemblies" className="block py-2">
 								Hose Assemblies
 							</Link>
-							<Link href="/products/pipe-assemblies" className="block py-2">
-								Pipe Assemblies
+							<Link href="/products/tube-assemblies" className="block py-2">
+								Tube Assemblies
 							</Link>
 							<Link href="/products/hydraulic-fittings" className="block py-2">
 								Hydraulic Fittings
