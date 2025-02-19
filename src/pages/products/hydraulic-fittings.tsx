@@ -56,10 +56,10 @@ export default function HoseAssembliesPage() {
 						SALIENT FEATURES
 					</h2>
 					<div className="relative flex flex-col gap-3 md:gap-4 items-center">
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto6eading-10">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Surface finish: Trivalent zinc electroplating with yellow or blue passivation (as per ASTM B633)
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							SST life of minimum 120 hours - no white rust and 360 hours - no red rust
 						</div>
 						<img
@@ -67,13 +67,13 @@ export default function HoseAssembliesPage() {
 							alt="hydraulic fittings"
 							className="shadow-lg bg-white mx-auto xl:absolute xl:-left-2 xl:top-14 w-60 md:w-72 object-cover border rounded-xl"
 						/>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Capability to achieve higher SST requirements as per customer specifications
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Interlocking end fitting design for high pressure hose assembly systems
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Single piece, un-jointed & Interlocking design, EN-1A steel & SAE1018 steel fittings, SS304/316 & Brass
 							fittings
 						</div>

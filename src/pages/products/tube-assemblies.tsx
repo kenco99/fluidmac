@@ -54,10 +54,10 @@ export default function HoseAssembliesPage() {
 						SALIENT FEATURES
 					</h2>
 					<div className="relative flex flex-col gap-3 md:gap-4 items-center">
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto6eading-10">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							ISO 9001:2015 certified QMS & Active 5S program
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Seamless cold drawn steel tubes as per DIN 2391, EN 10305, DIN 1630 etc. as per customer requirements
 						</div>
 						<img
@@ -65,15 +65,15 @@ export default function HoseAssembliesPage() {
 							alt="hose assembly"
 							className="mx-auto xl:absolute xl:-left-2 xl:-top-48 aspect-square h-60 md:h-72 object-contain"
 						/>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Multiple end connection options offered as per customer requirements such as Cold forming & Cutting ring
 							or Bite profile fittings as DIN 2353, 37° Flaring as per ISO 8434-2/SAE J533, ORFS Braze on fittings as
 							per ISO 8434-3 & Welded end connectors as per requirements
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Rigorous process control and product failure analysis systems{" "}
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Corrosion resistant Zn-plating & yellow/ blue passivation (Cr free)
 						</div>
 						<img
@@ -81,8 +81,8 @@ export default function HoseAssembliesPage() {
 							alt="tube assembly"
 							className="mx-auto xl:absolute xl:-right-2 xl:-top-48 aspect-square h-60 md:h-72 object-contain"
 						/>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
-							Corrosion resistant Zn-plating & yellow/ blue passivation (Cr free)
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
+						    Level 3 PPAP provided for all new development items accompanied with relevant test certificates & Fixture reports
 						</div>
 					</div>
 				</section>

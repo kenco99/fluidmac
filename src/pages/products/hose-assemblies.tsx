@@ -30,7 +30,7 @@ export default function HoseAssembliesPage() {
 					<h2 className="text-red-500 font-bold text-sm lg:text-2xl mb-3 tracking-widest">ABOUT THE PRODUCT</h2>
 					<p className="text-sm leading-7 lg:leading-9">
 						FluidMAC presents a rich portfolio of hose assemblies to meet SAE, DIN, EN, IS, NCB and other industry
-						standards, as well as client’s specifications. Our hydraulic hose assemblies are engineered to deliver
+						standards, as well as client's specifications. Our hydraulic hose assemblies are engineered to deliver
 						exceptional performance across a range of demanding applications.
 						<br />
 						Available in several configurations including single and double wire-braided, 4-spiral and 6-spiral, and
@@ -62,10 +62,10 @@ export default function HoseAssembliesPage() {
 						SALIENT FEATURES
 					</h2>
 					<div className="relative flex flex-col gap-3 md:gap-4 items-center">
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto6eading-10">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							ISO 9001:2015 certified QMS & Active 5S program
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Hoses from best known brands such as Parker, Manuli, Gates, Semperit & Eaton
 						</div>
 						<img
@@ -73,13 +73,13 @@ export default function HoseAssembliesPage() {
 							alt="hose assembly"
 							className="shadow-lg bg-white mx-auto xl:absolute xl:-left-2 xl:top-12 aspect-square h-60 md:h-72 object-contain border rounded-xl"
 						/>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							12 months/ 3000 working hours warranty for hose assemblies (under normal conditions)
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Automated Pressure testing facility up to 2000 Bar & In-house SST & Millipore testing facility
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Rigorous process control and product failure analysis systems{" "}
 						</div>
 						<img
@@ -87,13 +87,13 @@ export default function HoseAssembliesPage() {
 							alt="hose assembly"
 							className="shadow-lg bg-white mx-auto xl:absolute xl:-right-2 xl:top-12 aspect-square h-60 md:h-72 object-contain border rounded-xl"
 						/>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Automated Pressure testing facility up to 2000 Bar & In-house SST & Millipore testing facility
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Level 3 PPAP provided for all new development items accompanied with relevant test certificates
 						</div>
-						<div className="text-center text-sm md:text-xl bg-gray-100 px-10 py-5 w-fit rounded-xl mx-auto leading-6">
+						<div className="text-center text-xs md:text-sm bg-gray-100 px-8 py-4 w-fit rounded-xl mx-auto leading-5">
 							Hose Accessories such as metallic spring guard, PVC spiral guard, Heat-Fire resistant sleeves, Whip
 							Checks, etc. provided as per requirements.
 						</div>
