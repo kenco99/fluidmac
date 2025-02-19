@@ -1,0 +1,54 @@
+// const ContactHero = () => {
+//     return (
+//         <div className="py-8 md:py-12 bg-white">
+//             <div className="container px-4 md:px-8">
+//                 <div className="flex flex-col items-start gap-2">
+//                     <p className="text-sm md:text-base font-medium text-[#FF0000]">GET STARTED</p>
+//                     <h1 className="text-2xl md:text-4xl font-bold text-[#0070C0]">
+//                         Get in touch with us.
+//                         <br />
+//                         We're here to assist you.
+//                     </h1>
+//                 </div>
+
+//                 <div className="mt-8 md:mt-12 bg-[#0070C0] rounded-lg text-white p-6 md:p-8">
+//                     <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+//                         <div className="flex flex-col gap-4">
+//                             <h2 className="text-xl md:text-2xl font-bold">Our Contact Information</h2>
+//                             <div className="flex flex-col gap-6">
+//                                 <p className="text-sm md:text-base">Reach us with the following</p>
+                                
+//                                 <div className="flex items-center gap-3">
+//                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+//                                         <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C19.0368 21 19.5621 20.9716 20.0746 20.9171C20.6944 20.8506 21 20.2919 21 19.6666V16.0242C21 15.3969 20.4604 14.8894 19.8372 14.8195L16.5262 14.4551C15.9475 14.3902 15.3886 14.6602 15.1172 15.1876L14.0533 17.3333C11.4507 16.0286 9.97138 14.5493 8.66667 11.9467L10.8124 10.8828C11.3398 10.6114 11.6098 10.0525 11.5449 9.47384L11.1805 6.16279C11.1106 5.53957 10.6031 5 9.97578 5H6.33337C5.70806 5 5.14944 5.30557 5.08289 5.92537C5.02844 6.43791 5 6.96316 5 7.5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+//                                     </svg>
+//                                     <p>+91-9822384075/8329008308</p>
+//                                 </div>
+
+//                                 <div className="flex items-center gap-3">
+//                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+//                                         <path d="M2 7L10.1649 12.7154C10.8261 13.1783 11.1567 13.4097 11.5163 13.4993C11.8339 13.5785 12.1661 13.5785 12.4837 13.4993C12.8433 13.4097 13.1739 13.1783 13.8351 12.7154L22 7M6.8 20H17.2C18.8802 20 19.7202 20 20.362 19.673C20.9265 19.3854 21.3854 18.9265 21.673 18.362C22 17.7202 22 16.8802 22 15.2V8.8C22 7.11984 22 6.27976 21.673 5.63803C21.3854 5.07354 20.9265 4.6146 20.362 4.32698C19.7202 4 18.8802 4 17.2 4H6.8C5.11984 4 4.27976 4 3.63803 4.32698C3.07354 4.6146 2.6146 5.07354 2.32698 5.63803C2 6.27976 2 7.11984 2 8.8V15.2C2 16.8802 2 17.7202 2.32698 18.362C2.6146 18.9265 3.07354 19.3854 3.63803 19.673C4.27976 20 5.11984 20 6.8 20Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+//                                     </svg>
+//                                     <p>sales@fluidmac.in/pp.abhijit@fluidmac.in</p>
+//                                 </div>
+
+//                                 <div className="flex items-start gap-3">
+//                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+//                                         <path d="M12 12.5C13.6569 12.5 15 11.1569 15 9.5C15 7.84315 13.6569 6.5 12 6.5C10.3431 6.5 9 7.84315 9 9.5C9 11.1569 10.3431 12.5 12 12.5Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+//                                         <path d="M12 22C14 18 20 15.4183 20 10C20 5.58172 16.4183 2 12 2C7.58172 2 4 5.58172 4 10C4 15.4183 10 18 12 22Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+//                                     </svg>
+//                                     <div className="flex flex-col gap-4">
+//                                         <p>Fluidmac Hose Industries<br/>Plot No.8, Kakoda Industrial Estate,<br/>Curchorem, Goa-403706, India</p>
+//                                         <p>Shed No. 2, Sy No. 64, Attibele,<br/>Muthanandra Village, Bangalore,<br/>Karnataka-562107, India</p>
+//                                     </div>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default ContactHero; 

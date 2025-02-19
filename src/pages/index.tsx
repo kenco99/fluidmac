@@ -2,15 +2,15 @@ import Hero from "@/components/home/hero";
 import OurProducts from "@/components/home/our-products";
 import TrustedBy from "@/components/home/trusted-by";
 import WhoAreWe from "@/components/home/who-are-we";
-import PageHeader from "@/components/page-header";
+
 import TopBar from "@/components/top-bar";
 import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
 
 const Home = () => {
 	return (
 		<>
-			<TopBar />
-			<PageHeader />
+			<Header />
 			<Hero />
 			<OurProducts />
 			<TrustedBy />
